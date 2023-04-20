@@ -17,7 +17,8 @@
         </form>
     </div>
     <?php
-        function date_fr (){                                                    // Créer la fonction
+        function date_fr (){                                        // Créer la fonction                                 
+            date_default_timezone_set('Europe/Paris');
             $date = $_GET['date'];                                              
             $date = (explode("-",$date));
             $date = date("l-d-F-Y",mktime(0,0,0,$date[1],$date[2],$date[0]));
