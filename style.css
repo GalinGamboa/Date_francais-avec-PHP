@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{padding-top: 40px;
+    background-image: linear-gradient(to right, #e2d785, #e2c767, #e4b54b, #e7a12f, #eb8c12);
+    text-align: center;
+}
+
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+#btn-submit{
+    cursor: pointer;
+    margin-top: 50px;
+    width: 140px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, #1b30ec, #0084ff, #00b0ff, #00d2a9, #12eb3a);;
+}
+
+#btn-submit:hover{
+    color: rgb(175, 3, 255);
+}
